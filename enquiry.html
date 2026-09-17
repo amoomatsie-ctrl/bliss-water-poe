@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Enquire|Bliss Water</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <!--Site header with navigation-->
+  <header>
+    <h1>Bliss</h1>
+    <nav> 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="enquiry">
+      <h2>Get in Touch</h2>
+      <p>Do you wish to order in bulk or for an event, or do you have a question?
+         Please complete the form below, and we will contact you.</p>  
+
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="phone">Phone (optional)</label>
+        <input type="tel" id="phone" name="phone">
+
+
+        <label for="reason">Reason for Enquiry</label>
+        <select id="reason" name="reason">
+            <option value="bulk">Bulk Order</option>
+            <option value="stocklist">Retail Stocklist</option>
+            <option value="event">Event Order</option>
+            <option value="general">General Question</option>
+        </select>
+        
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+
+        <button type="submit">Send Enquiry</button>
+      </form>   
+    </section>   
+  </main> 
+  
+
+  <!--Site footer-->
+  <footer>
+    <p>&copy; 2026 Bliss Water. All rights reseverd.</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>  
