@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact|Bliss Water</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
   <!--Site header with navigation-->
   <header>
     <h1>Bliss</h1>
-    <nav> 
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -23,71 +25,59 @@
     </nav>
   </header>
 
-
   <main>
     <section class="locations">
         <h2>Our Locations</h2>
+        <img src="images/contact-location.jpg" alt="Bliss Water head office and distribution point">
 
-
-        <div class="locations">
+        <div class="location">
             <h3>Head Office & Bottling Plant</h3>
-            <P>Longmeadow Business Estate, Modderfontein, Johannesburg</P>
+            <p>Longmeadow Business Estate, Modderfontein, Johannesburg</p>
         </div>
-
 
         <div class="location">
             <h3>Distribution Point</h3>
             <p>Braamfontein, Johannesburg</p>
         </div>
 
-
-        <p>Phone: 011 446 7590</p>
-        <p>Email: hello@blisswater.co.za</p>
-        <p>Hours: Monday-Saturday, 8:00-17:00</p>
+        <p class="contact-details">Phone: 011 446 7590</p>
+        <p class="contact-details">Email: hello@blisswater.co.za</p>
+        <p class="contact-details">Hours: Monday-Saturday, 8:00-17:00</p>
     </section>
-
 
     <section class="map">
         <h2>Find Us</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28640.95454650737!2d28.017464849325705!3d-26.19279658331461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1974081ac5%3A0xd12a225dc667e805!2sBraamfontein%2C%20Johannesburg%2C%202017!5e0!3m2!1sen!2sza!4v1786712391681!5m2!1sen!2sza" 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28640.95454650737!2d28.017464849325705!3d-26.19279658331461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1974081ac5%3A0xd12a225dc667e805!2sBraamfontein%2C%20Johannesburg%2C%202017!5e0!3m2!1sen!2sza!4v1786712391681!5m2!1sen!2sza"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
     </section>
-    
-    
+
     <section class="contact-form">
         <h2>Send Us a Message</h2>
-
 
         <form>
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required>
 
-
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
-
 
           <label for="phone">Phone (optional)</label>
           <input type="tel" id="phone" name="phone">
 
-
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5"></textarea>
-
 
           <button type="submit">Send Enquiry</button>
         </form>
     </section>
   </main>
-        
 
    <!--Site footer-->
    <footer>
       <p>&copy; 2026 Bliss Water. All rights reserved.</p>
    </footer>
 
-
-   <script src="js/script/.js"></script>
+   <script src="js/script.js"></script>
 </body>
-</html>   
+</html>
