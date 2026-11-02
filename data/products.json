@@ -1,0 +1,5 @@
+[
+  {"id":1,"name":"500ml Bliss","size":"500ml","priceLow":8,"priceHigh":12,"description":"Our most practical size, ideal for refreshments while on the run.","image":"images/product-500ml.jpg","alt":"500ml Bliss water bottle"},
+  {"id":2,"name":"750ml Bliss","size":"750ml","priceLow":10,"priceHigh":15,"description":"A healthy size for regular hydration at the gym, at work, or at home.","image":"images/product-750ml.jpg","alt":"750ml Bliss water bottle"},
+  {"id":3,"name":"1.5L Bliss","size":"1.5L","priceLow":12,"priceHigh":18,"description":"Our biggest size, perfect for sharing, offices, and families.","image":"images/product-1.5l.jpg","alt":"1.5 litre Bliss water bottle"}
+]

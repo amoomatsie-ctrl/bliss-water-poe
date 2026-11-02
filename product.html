@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products|Bliss Water</title>
+  <title>Products | Bliss Water</title>
+  <meta name="description" content="Browse Bliss Water bottled water in 500ml, 750ml and 1.5 litre sizes, with prices from R8. Filtered in Johannesburg.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/products.css">
 </head>
 <body>
 
@@ -29,6 +31,25 @@
     <section class="products">
       <h2>Our Products</h2>
 
+      <div class="controls" id="product-controls" hidden>
+        <input id="product-search" type="search" placeholder="Search products" aria-label="Search products">
+        <select id="product-size" aria-label="Filter by size">
+          <option value="all">All sizes</option>
+          <option value="500ml">500ml</option>
+          <option value="750ml">750ml</option>
+          <option value="1.5L">1.5L</option>
+        </select>
+        <select id="product-sort" aria-label="Sort products">
+          <option value="default">Default order</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="name">Name A to Z</option>
+        </select>
+      </div>
+      <p id="product-count" aria-live="polite"></p>
+
+      <div id="product-list">
+
       <div class="product">
         <img src="images/product-500ml.jpg" alt="500ml Bliss water bottle">
         <h3>500ml Bliss</h3>
@@ -49,6 +70,7 @@
         <p>Our biggest size, perfect for sharing, offices, and families.</p>
         <p class="price">R12 - R18</p>
       </div>
+    </div><!-- /product-list -->
     </section>
 
     <section class="pricing-strategy">
@@ -67,5 +89,6 @@
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/products.js"></script>
 </body>
 </html>

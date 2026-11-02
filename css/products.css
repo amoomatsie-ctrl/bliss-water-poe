@@ -1,0 +1,22 @@
+/* products.css - search/filter/sort controls + lightbox (load AFTER style.css) */
+.controls { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; }
+.controls[hidden] { display: none; }
+.controls input, .controls select { padding: .6rem; font: inherit; }
+#product-count { margin: 0 0 1rem; font-size: .9rem; }
+.no-results { font-style: italic; }
+.product img { cursor: zoom-in; transition: transform .25s ease; }
+.product img:hover, .product img:focus-visible { transform: scale(1.04); }
+
+.lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.88); display: none;
+  align-items: center; justify-content: center; flex-direction: column; z-index: 1000; }
+.lightbox.show { display: flex; animation: lbFade .25s ease; }
+.lightbox img { max-width: 90vw; max-height: 78vh; border-radius: 8px; transform: none; cursor: default; }
+.lightbox p { color: #fff; margin-top: .75rem; }
+.lightbox button { position: absolute; background: none; border: 0; color: #fff; font-size: 2.6rem;
+  cursor: pointer; padding: .5rem 1rem; line-height: 1; }
+.lightbox .lb-close { top: 1rem; right: 1rem; }
+.lightbox .lb-prev { left: 1rem; }
+.lightbox .lb-next { right: 1rem; }
+.lightbox button:focus-visible { outline: 3px solid #fff; }
+@keyframes lbFade { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .lightbox.show, .product img { animation: none; transition: none; } }
