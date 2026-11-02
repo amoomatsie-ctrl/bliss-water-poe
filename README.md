@@ -3,9 +3,9 @@
 A multi-page website for Bliss Water, an affordable-premium filtered bottled water brand based in Johannesburg, South Africa.
 
 - **Repository:** https://github.com/amoomatsie-ctrl/bliss-water-poe
-- **Live site:** *(add your Netlify / GitHub Pages link here)*
-- **Module:** *(add module name and code)*
-- **Student:** *(add your name and student number)*
+- **Live site:**  https://amoomatsie-ctrl.github.io/bliss-water-poe/
+- **Module:** WEDE5020
+- **Student:** Amohelang Matsie
 
 ## Pages
 
@@ -43,9 +43,9 @@ A multi-page website for Bliss Water, an affordable-premium filtered bottled wat
 
 | Date | File(s) | Change |
 |---|---|---|
-| *(date)* | `enquiry.html`, `contact.html`, `js/forms.js`, `css/forms.css` | Added client-side validation with error messages to both forms. Added bottle size, quantity and event date fields to the enquiry form, shown only for bulk and event orders. Added a cost estimate and availability response to the enquiry form, and an email builder with a `mailto:` link to the contact form. |
-| *(date)* | `enquiry.html` | Fixed the "reseverd" spelling error in the footer. Added the Google Fonts links that the other pages already had. Fixed the page title spacing. |
-| *(date)* | `contact.html` | Added a "type of message" field. Added a title attribute to the map iframe for accessibility. |
+| 2 November 2026 | `enquiry.html`, `contact.html`, `js/forms.js`, `css/forms.css` | Added search, filter by size and sort to the product page. products are loaded from a JSON file using fetch. |
+| 2 November 2026 | `enquiry.html` | Fixed the "reseverd" spelling error in the footer. Added the Google Fonts links that the other pages already had. Fixed the page title spacing. |
+| 2 November 2026 | `contact.html` | Added a "type of message" field. Added a title attribute to the map iframe for accessibility. |
 
 #### Changes made from Part 2 feedback
 
